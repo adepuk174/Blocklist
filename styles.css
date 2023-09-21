@@ -40,9 +40,9 @@ header {
 }
 
 #headerSearch {
-    height: 55%;
+    height: 58%;
     width: 60%;
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
     border: 1px grey solid;
     padding-left: 0.5rem;
 }
@@ -86,7 +86,7 @@ header {
 }
 
 #menuList a li {
-    color: grey;
+    color: #4E5E78;
     display: flex;
     gap: 0.3rem;
 }
@@ -152,8 +152,8 @@ header {
 }
 
 #innerLeft {
-    border-right: solid 1px black;
-    color: rgb(129, 134, 136);
+    border-right: solid 0.5px gray;
+    color: #4E5E78;
 }
 
 #leftContent ul {
@@ -162,9 +162,9 @@ header {
 }
 
 #leftContent ul li {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    border-bottom: solid gray 1px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: solid gray 0.8px;
     display: flex;
     gap: 1rem;
     font-size: 13px;
@@ -185,11 +185,13 @@ header {
     color: rgb(81, 97, 109);
     font-size: 10px;
     font-weight: bold;
+    font-color: #5D6578;
 }
 
 #rightContent p {
     color: rgb(174, 178, 181);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-color: #5D6578;
 }
 
 #rightContent form {
@@ -208,7 +210,7 @@ header {
     display: flex;
     align-items: flex-start;
     font-size: 1.1rem;
-    color: gray
+    color: gray;
 }
 
 #blockUserList a li img {
@@ -222,11 +224,11 @@ header {
 
 .unblock {
     margin-left: 150px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
@@ -239,7 +241,7 @@ header {
   font-weight: bold;
   text-align: left;
   font-size: 15px;
-  color: rgb(87, 87, 87);
+  color: #5D6578;
 }
 
 .name h4{
@@ -253,68 +255,68 @@ header {
 }
 
 #blockSection h3{
-  margin-top: 15px;
-  color: rgb(87, 87, 87);
-  font-size: 18px;
+  margin-top: 16px;
+  color: #5D6578;
+  font-size: 16px;
 }
 
 #rightContent h1{
-  font-size: 25px;
-  color: #626262;
+  font-size: 22px;
+  color: #5D6578;
   font-family; Arial, Helvetica, sans-serif;
 }
 
 .unblocka {
     margin-left: 110px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
 
 .unblockb {
     margin-left: 131px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius:7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
 
 .unblockc {
     margin-left: 49px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
 
 .unblockd {
     margin-left: 150px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
 
 .unblocke {
     margin-left: 150px;
-    padding: 8px 13px 8px 13px;
-    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
     border-color: transparent;
     color: white;
-    background: rgb(80, 123, 241);
+    background: #377DFF;
     cursor: pointer;
     align-items: center;
 }
@@ -370,9 +372,9 @@ header {
 }
 
 #blockSearch {
-    height: 100%;
+    height: 110%;
     width: 700%;
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
     border: 1px grey solid;
     padding-left: 0.5rem;
 }
@@ -384,10 +386,18 @@ header {
 }
 
 .micons{
-    padding-left: -10px;
-    font-size: 18px;
-    margin-left: -10px;
+    margin-left: -27px;
+    width: 110%;
+    padding: 9px 17px 9px 17px;
+    border-radius: 7px;
+    border-color: transparent;
+    color: white;
+    background: #4E5E78;
+    cursor: pointer;
+    align-items: flex-start;
+    margin-top: -10px;
 }
+
 
 .mname{
     font-size: 16px;
@@ -422,9 +432,14 @@ header {
 .mnamef{
     font-size: 16px;
     padding-left: +15px;
+    align-font: flex-start;
 }
 
 .mnameg{
     font-size: 16px;
     padding-left: +15px;
+}
+
+.sa{
+    padding-left: +12px;
 }
